@@ -6,15 +6,15 @@ public class Role {
 	
 	public Role() {}
 	
-	public Role(Integer role_id, String description) {
-		this.role_id = role_id;
+	public Role(Integer roleId, String description) {
+		this.role_id = roleId;
 		this.description = description;
 	}
 	
-	public Integer getRole_id() {
+	public Integer getRoleId() {
 		return role_id;
 	}
-	public void setRole_id(Integer role_id) {
+	public void setRoleId(Integer role_id) {
 		this.role_id = role_id;
 	}
 	public String getDescription() {
