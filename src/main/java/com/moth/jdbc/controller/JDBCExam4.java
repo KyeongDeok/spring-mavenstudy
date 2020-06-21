@@ -1,4 +1,4 @@
-package com.moth;
+package com.moth.jdbc.controller;
 
 import com.moth.dao.RoleDao;
 

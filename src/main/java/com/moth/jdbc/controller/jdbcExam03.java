@@ -1,4 +1,4 @@
-package com.moth;
+package com.moth.jdbc.controller;
 
 import java.util.List;
 

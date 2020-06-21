@@ -14,14 +14,18 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+  <!-- web.xml 파일을 삭제해도 eclipse에서 오류가 발생하지 않는다. -->
+		<failOnMissingWebXml>false</failOnMissingWebXml>
   </properties>
 
   <dependencies>
+  <dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.9.4</version>
+	</dependency>
   <dependency>   
-  <groupId>mysql</groupId>   
+  	   <groupId>mysql</groupId>   
        <artifactId>mysql-connector-java</artifactId>
        <version>5.1.45</version>
  </dependency>
