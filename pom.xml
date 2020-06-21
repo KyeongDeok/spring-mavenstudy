@@ -16,9 +16,16 @@
   <properties>
   <!-- web.xml 파일을 삭제해도 eclipse에서 오류가 발생하지 않는다. -->
 		<failOnMissingWebXml>false</failOnMissingWebXml>
+		<spring.version> 4.3.14.RELEASE</spring.version>
   </properties>
 
   <dependencies>
+  <!-- Spring -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>${spring.version}</version>
+	</dependency>
   <dependency>
 		<groupId>com.fasterxml.jackson.core</groupId>
 		<artifactId>jackson-databind</artifactId>
