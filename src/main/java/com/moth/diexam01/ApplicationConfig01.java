@@ -4,7 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ApplicationConfig {
+public class ApplicationConfig01 {
+	
 	@Bean
 	public Car car(Engine e) {
 		Car c = new Car();
