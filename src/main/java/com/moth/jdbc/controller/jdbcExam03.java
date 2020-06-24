@@ -2,12 +2,12 @@ package com.moth.jdbc.controller;
 
 import java.util.List;
 
-import com.moth.dao.RoleDao;
+import com.moth.dao.RoleDao01;
 import com.moth.dto.Role;
 
 public class jdbcExam03 {
 	public static void main(String [] args) {
-		RoleDao dao = new RoleDao();
+		RoleDao01 dao = new RoleDao01();
 		
 		List <Role> list = dao.getRoles();
 		

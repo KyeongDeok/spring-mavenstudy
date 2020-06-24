@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.moth.dao.RoleDao;
+import com.moth.dao.RoleDao01;
 import com.moth.dto.Role;
 
 /**
@@ -35,7 +35,7 @@ public class RoleServlet extends HttpServlet {
 		response.setCharacterEncoding("utf-8");
 		response.setContentType("application/json");
 
-		RoleDao dao = new RoleDao();
+		RoleDao01 dao = new RoleDao01();
 
 		List<Role> list = dao.getRoles();
 

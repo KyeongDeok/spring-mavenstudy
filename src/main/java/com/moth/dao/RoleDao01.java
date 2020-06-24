@@ -10,7 +10,7 @@ import java.util.List;
 
 import com.moth.dto.Role;
 
-public class RoleDao {
+public class RoleDao01 {
 	private static String dburl = "jdbc:mysql://localhost:3306/connectdb";
 	private static String dbUser = "connectuser";
 	private static String dbpasswd = "connect123!@#";
